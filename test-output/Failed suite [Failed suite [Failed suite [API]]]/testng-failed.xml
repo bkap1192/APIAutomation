@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [API]]]]">
+  <listeners>
+    <listener class-name="com.hms.test.RepoterAndCustomException.Reporter"/>
+  </listeners>
+  <test name="Test(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.hms.test.web.WebAPIScenario">
+        <methods>
+          <include name="fn_CreateTACRSReservationWithCreditCardPaymentMode"/>
+          <include name="fn_ValidateWsauthAPI"/>
+        </methods>
+      </class> <!-- com.hms.test.web.WebAPIScenario -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [API]]]] -->

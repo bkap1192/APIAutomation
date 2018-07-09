@@ -1,0 +1,15 @@
+<suite name="API" verbose="1">
+
+<listeners>
+         <listener class-name="com.hms.test.RepoterAndCustomException.Reporter" />
+    </listeners>
+
+  <test name="Test">
+    <classes>
+    <!--  
+          <class name="com.hms.test.web.WebAPIScenario"/>
+          -->
+          <class name="com.hms.test.admin.AdminAPI"/>
+      </classes>
+  </test> 
+</suite>
